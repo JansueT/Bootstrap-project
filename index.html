@@ -327,7 +327,7 @@
       <section class="container pt-5">
         <div class="row">
           <div class="col">
-            <p class="fs-4">
+            <p class="fs-3 align-content-center mt-5">
               I'm always interested in hearing about new projects, so if you'd
               like to chat please get in touch.
             </p>
@@ -338,31 +338,33 @@
               action="https://formspree.io/f/xpznodvr"
               method="post"
             >
-              <ul class="nav fill flex-row mb-3 ">
-                <li class="nav-item">
-                  <input
-                    name="Fname"
-                    type="text"
-                    class="form-control"
-                    maxlength="30"
-                    placeholder="Enter Frist Name"
-                    required
-                  />
-                </li>
-                <li class="nav-item">
-                  <input
-                    name="Fname"
-                    id="name"
-                    type="text"
-                    class="form-control m"
-                    maxlength="30"
-                    placeholder="Enter Last Name"
-                    required
-                  />
-                </li>
-              </ul>
-              <ul class="nav row-cols-1 mb-3">
-                <li class="nav-item">
+            <div class="row mb-3">
+              <div class="col">
+                <label for="fname"></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="fname"
+                  id="fname"
+                  placeholder="First name"
+                  maxlength="30"
+                  required
+                />
+              </div>
+              <div class="col">
+                <label for="lname"></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="lname"
+                  id="lname"
+                  placeholder="Last name"
+                  maxlength="30"
+                  required
+                />
+              </div>
+              <ul class="nav row-cols-1 mb-3 mt-3">
+                <li class="nav-item mb-3">
                   <input
                     name="Email"
                     id="exampleInputEmail1"
@@ -372,7 +374,7 @@
                     placeholder="Enter Email Address"
                     required
                     class="form-control"
-                    style="width: 420px"
+                    style="width: 620px"
                   />
                 </li>
                 <li class="nav-item">
@@ -384,10 +386,10 @@
                     required
                     cols="40"
                     rows="4"
-                    class="form-control"
-                    style="width: 420px"
+                    class="form-control mb-3"
+                    style="width: 620px"
                   >
-                  </textarea>
+                  </textarea >
                 </li>
                 <button
                   type="button"
@@ -401,7 +403,7 @@
           </div>
         </div>
       </section>
-      <!-- contact start -->
+      <!-- contact end -->
     </main>
 
     <script
