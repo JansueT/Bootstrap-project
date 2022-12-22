@@ -11,21 +11,25 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <nav class="navbar justify-content-center" id="navbar-scroll">
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills fs-4 pt-3" style="height: 200px">
           <li class="nav-item p-3">
-            <a class="nav-link" aria-current="page" href="#scrollspyPortfolio"
+            <a
+              class="nav-link text-dark"
+              aria-current="page"
+              href="#scrollspyPortfolio"
               >Portfolio</a
             >
           </li>
           <li class="nav-item p-3">
-            <a class="nav-link" href="#scrollspyAbout">About</a>
+            <a class="nav-link text-dark" href="#scrollspyAbout">About</a>
           </li>
           <li class="nav-item p-3">
-            <a class="nav-link" href="#scrollspyContact">Contact</a>
+            <a class="nav-link text-dark" href="#scrollspyContact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -37,37 +41,44 @@
       class="scrollspy-position"
       tabindex="0"
     >
-      <section id="scrollspyPortfolio">
-        <h1>Hey there. I'm Alex</h1>
-        <h2>I'm a software developer</h2>
-        <p>
+      <section
+        id="scrollspyPortfolio w-100 bg justify-content-center"
+        style="height: 819px"
+      >
+        <h1 class="text-center fs-1 fw-bold" style="height: 57px">
+          Hey there. I'm Alex
+        </h1>
+        <h2 class="text-center fs-1 fw-bold text-success" style="height: 57px">
+          I'm a software developer
+        </h2>
+        <p class="text-center fs-4 pl-5" style="width: 920px">
           I can help you build a product , feature or website Look through some
           of my work and experience! If you like what you see and have a project
           you need coded, don't hestiate to contact me.
         </p>
-        <div>
-          <ul class="nav flex-row">
-            <li class="nav-item p-3">
+        <div class="">
+          <ul class="nav flex-row justify-content-center">
+            <li class="nav-item p-1">
+              <a class="nav-link active" href="#"
+                ><img src="./images/twitter.svg" alt="icon"
+              /></a>
+            </li>
+            <li class="nav-item p-1">
+              <a class="nav-link active" href="#"
+                ><img src="./images/Linkedin icon.svg" alt="git hub"
+              /></a>
+            </li>
+            <li class="nav-item p-1">
               <a class="nav-link active" href="#"
                 ><img src="./images/medium.svg" alt="icon"
               /></a>
             </li>
-            <li class="nav-item p-3">
-              <a class="nav-link active" href="#"
-                ><img src="./images/github.svg" alt="git hub"
-              /></a>
-            </li>
-            <li class="nav-item p-3">
-              <a class="nav-link active" href="#"
-                ><img src="./images/github.svg" alt="icon"
-              /></a>
-            </li>
-            <li class="nav-item p-3">
+            <li class="nav-item p-1">
               <a class="nav-link active" href="#"
                 ><img src="./images/github.svg" alt="icon-skills"
               /></a>
             </li>
-            <li class="nav-item p-3">
+            <li class="nav-item p-1">
               <a class="nav-link active" href="#"
                 ><img src="./images/angellist.svg" alt=""
               /></a>
@@ -77,48 +88,85 @@
       </section>
 
       <div>
-        <h2>My Recent Work</h2>
+        <h2 class="text-center fs-3">My Recent Work</h2>
       </div>
 
-      <div class="row row-cols-3">
-        <div class="col">
+      <div class="row row-cols-3 m-lg-5">
+        <div class="col mb-4">
           <div class="card">
             <img
               src="./images/Img Plaholder.png"
               class="card-img-top"
               alt="projects"
+              width="367px"
             />
             <div class="card-body">
-              <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+              <h3 class="card-title fs-4 text-center">
+                Multi-Post Stories Gain+Glory
+              </h3>
             </div>
             <ul class="nav flex-row">
-              <li class="nav-item p-3"><a href="#"></a>Ruby on rails</li>
-              <li class="nav-item p-3"><a href="#"></a>css</li>
-              <li class="nav-item p-3"><a href="#"></a>JavaScript</li>
-              <li class="nav-item p-3"><a href="#"></a>html</li>
+              <li class="nav-item p-2"><a href="#"></a>Ruby on rails</li>
+              <li class="nav-item p-2"><a href="#"></a>css</li>
+              <li class="nav-item p-2"><a href="#"></a>JavaScript</li>
+              <li class="nav-item p-2"><a href="#"></a>html</li>
             </ul>
-            <button type="button" class="btn btn-success">See project</button>
+            <button type="button" class="btn btn-success" style="width: 120px">
+              See project
+            </button>
           </div>
         </div>
-        <div class="col">
+        <div class="col mb-4">
           <div class="card">
             <img
               src="./images/Img Plaholder.png"
               class="card-img-top"
+              width="367px"
               alt="projects"
             />
             <div class="card-body">
-              <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+              <h3 class="card-title fs-4 text-center">
+                Multi-Post Stories Gain+Glory
+              </h3>
             </div>
             <ul class="nav flex-row">
-              <li class="nav-item p-3">Ruby on rails</li>
-              <li class="nav-item p-3">css</li>
-              <li class="nav-item p-3">JavaScript</li>
-              <li class="nav-item p-3">html</li>
+              <li class="nav-item p-2">Ruby on rails</li>
+              <li class="nav-item p-2">css</li>
+              <li class="nav-item p-2">JavaScript</li>
+              <li class="nav-item p-2">html</li>
             </ul>
             <button
               type="button"
               class="btn btn-success justify-content-center"
+              style="width: 120px"
+            >
+              See project
+            </button>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img
+              src="./images/Img Plaholder.png"
+              class="card-img-top"
+              width="367px"
+              alt="projects"
+            />
+            <div class="card-body">
+              <h3 class="card-title fs-4 text-center">
+                Multi-Post Stories Gain+Glory
+              </h3>
+            </div>
+            <ul class="nav flex-row">
+              <li class="nav-item p-2">Ruby on rails</li>
+              <li class="nav-item p-2">css</li>
+              <li class="nav-item p-2">JavaScript</li>
+              <li class="nav-item p-2">html</li>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-success justify-content-center"
+              style="width: 120px"
             >
               See project
             </button>
@@ -129,20 +177,24 @@
             <img
               src="./images/Img Plaholder.png"
               class="card-img-top"
+              width="367px"
               alt="projects"
             />
             <div class="card-body">
-              <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+              <h3 class="card-title fs-4 text-center">
+                Multi-Post Stories Gain+Glory
+              </h3>
             </div>
             <ul class="nav flex-row">
-              <li class="nav-item p-3">Ruby on rails</li>
-              <li class="nav-item p-3">css</li>
-              <li class="nav-item p-3">JavaScript</li>
-              <li class="nav-item p-3">html</li>
+              <li class="nav-item p-2">Ruby on rails</li>
+              <li class="nav-item p-2">css</li>
+              <li class="nav-item p-2">JavaScript</li>
+              <li class="nav-item p-2">html</li>
             </ul>
             <button
               type="button"
               class="btn btn-success justify-content-center"
+              style="width: 120px"
             >
               See project
             </button>
@@ -153,20 +205,24 @@
             <img
               src="./images/Img Plaholder.png"
               class="card-img-top"
+              width="367px"
               alt="projects"
             />
             <div class="card-body">
-              <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+              <h3 class="card-title fs-4 text-center">
+                Multi-Post Stories Gain+Glory
+              </h3>
             </div>
             <ul class="nav flex-row">
-              <li class="nav-item p-3">Ruby on rails</li>
-              <li class="nav-item p-3">css</li>
-              <li class="nav-item p-3">JavaScript</li>
-              <li class="nav-item p-3">html</li>
+              <li class="nav-item p-2">Ruby on rails</li>
+              <li class="nav-item p-2">css</li>
+              <li class="nav-item p-2">JavaScript</li>
+              <li class="nav-item p-2">html</li>
             </ul>
             <button
               type="button"
               class="btn btn-success justify-content-center"
+              style="width: 120px"
             >
               See project
             </button>
@@ -177,42 +233,25 @@
             <img
               src="./images/Img Plaholder.png"
               class="card-img-top"
+              width="367px"
               alt="projects"
             />
             <div class="card-body">
-              <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
+              <h3 class="card-title fs-4 text-center">
+                Multi-Post Stories Gain+Glory
+              </h3>
             </div>
             <ul class="nav flex-row">
-              <li class="nav-item p-3">Ruby on rails</li>
-              <li class="nav-item p-3">css</li>
-              <li class="nav-item p-3">JavaScript</li>
-              <li class="nav-item p-3">html</li>
+              <li class="nav-item p-2">Ruby on rails</li>
+              <li class="nav-item p-2">css</li>
+              <li class="nav-item p-2">JavaScript</li>
+              <li class="nav-item p-2">html</li>
             </ul>
-            <button
+            <butto
               type="button"
               class="btn btn-success justify-content-center"
+              style="width: 120px"
             >
-              See project
-            </button>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img
-              src="./images/Img Plaholder.png"
-              class="card-img-top"
-              alt="projects"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Multi-Post Stories Gain+Glory</h3>
-            </div>
-            <ul class="nav flex-row">
-              <li class="nav-item p-3">Ruby on rails</li>
-              <li class="nav-item p-3">css</li>
-              <li class="nav-item p-3">JavaScript</li>
-              <li class="nav-item p-3">html</li>
-            </ul>
-            <butto type="button" class="btn btn-success justify-content-center">
               See project
             </butto>
           </div>
@@ -227,16 +266,11 @@
             some of my work and experience! If you like what you see and have a
             project you need coded, don't hestiate to contact me.
           </p>
-          <div>
-            <button
-              type="button"
-              class="btn btn-success justify-content-center"
-            >
-              Get My Resume
-            </button>
+          <div class="justify-content-center">
+            <button type="button" class="btn btn-success">Get My Resume</button>
           </div>
           <div class="d-grid gap-3 d-md-flex">
-            <div>
+            <div class="about_list align-items-center">
               <div><img src="./images/Group.svg" alt="icon" /></div>
               <div><h2>Languages</h2></div>
               <div>
@@ -249,7 +283,7 @@
               </div>
             </div>
 
-            <div>
+            <div class="about_list align-items-center">
               <div><img src="./images/Group-2.svg" alt="Group-2" /></div>
               <div><h2>Languages</h2></div>
               <div>
@@ -261,7 +295,7 @@
                 </ul>
               </div>
             </div>
-            <div>
+            <div class="about_list align-items-center">
               <div><img src="./images/icon-skills.svg" alt="icon" /></div>
               <div><h2>Languages</h2></div>
               <div>
